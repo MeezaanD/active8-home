@@ -15,8 +15,8 @@
                   <div class="col-sm-3">
                       <h3>More</h3>
                       <ul>
-                        <li><a href=""><i class="fa-solid fa-location-dot text-light"></i> : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></li>
-                        <li><a href=""><i class="fa-solid fa-phone text-light"></i> : 000-000-0000</a></li>
+                        <li><i class="fa-solid fa-location-dot text-light"></i> : Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li><i class="fa-solid fa-phone text-light"></i> : 000-000-0000</li>
                         <li><a href=""><i class="fa-brands fa-instagram text-light"></i> : Activ8</a></li>
                       </ul>
                   </div>
@@ -38,6 +38,7 @@ export default {
 </script>
 <style scoped>
     footer {
+        padding-top: 30px;
         background: black;
     }
 
@@ -60,5 +61,9 @@ export default {
         font-family: 'Poppins', sans-serif;
         color: rgb(224, 215, 161);
         font-weight: bold;
+      }
+
+      .container {
+        border: none;
       }
 </style>

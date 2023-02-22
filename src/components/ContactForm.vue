@@ -5,12 +5,7 @@
         <div class="container text-center">
             <div class="row">
               <div class="col-sm-6">
-                <img src="https://i.postimg.cc/13vwVPb9/transparent.png" style="width:100%;" alt="contact">
-                <ul>
-                    <li><a href=""><i class="fa-solid fa-location-dot text-light"></i></a></li>
-                    <li><a href=""><i class="fa-solid fa-phone text-light"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram text-light"></i></a></li>
-                </ul>
+                <img src="https://i.postimg.cc/13vwVPb9/transparent.png" class="img-fluid" style="width:100%;" alt="contact">
               </div>
               <div class="col-sm-6">
                 <form action="https://formspree.io/f/mbjbywlp" method="post">
@@ -56,6 +51,8 @@ h2 {
 label {
     font-family: 'Poppins', sans-serif;
     color: rgb(224, 215, 161);
+    font-weight: bold;
+    font-size: 20px;
   }
 
   input[type=text], select, textarea {
@@ -83,15 +80,8 @@ label {
     border: 1px solid white;
   }
 
-  ul {
-    display: flex;
-    font-size: 25px;
-    gap: 3rem;
-    padding: 70px;
-  }
-
-  ul li {
-    list-style: none;
+  img {
+    margin-top: 80px;
   }
   
 </style>

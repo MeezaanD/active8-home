@@ -44,7 +44,7 @@
                       <a href="#" target="_blank"><i class="fa-brands fa-github text-light" style="padding:10px;"></i></a>
                       <a href="#" target="_blank"><i class="fa-brands fa-linkedin text-light" style="padding:10px;"></i></a>  
                     </div>
-                    <p><button>Get in touch</button></p>
+                    <p><button>Get in touch <i class="fa-sharp fa-solid fa-hand-point-up"></i></button></p>
                   </div>
               </div>
               <div class="col-sm-6">
@@ -57,7 +57,7 @@
                     <a href="#" target="_blank"><i class="fa-brands fa-github text-light" style="padding:10px;"></i></a> 
                     <a href="#" target="_blank"><i class="fa-brands fa-linkedin text-light" style="padding:10px;"></i></a>  
                   </div>
-                  <p><button>Get in touch</button></p>
+                  <p><button>Get in touch <i class="fa-sharp fa-solid fa-hand-point-up"></i></button></p>
                 </div>
               </div>
             </div>
@@ -71,9 +71,6 @@ export default {
 }
 </script>
 <style scoped>
-
-
-
     #about {
         height: 100%;
         background-image: linear-gradient( rgba(0, 0, 0, 0.7), black);

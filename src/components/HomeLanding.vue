@@ -98,6 +98,7 @@ export default {
 }
 
 span {
+  text-decoration: underline;
   color: rgb(255, 200, 99);
 }
 

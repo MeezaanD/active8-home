@@ -42,9 +42,7 @@ export default {
 <style scoped>
 
 #contact {
-    background: black;
-    border: 2px solid rgb(224, 215, 161);
-
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7),black);
 }
 
 h2 {
@@ -56,7 +54,8 @@ h2 {
 }
 
 label {
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(224, 215, 161);
   }
 
   input[type=text], select, textarea {

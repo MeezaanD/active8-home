@@ -28,7 +28,7 @@
               </ul>
               <ul class="user">
                 <li><button><a href="/login">LOGIN</a></button></li>
-                <li><button><a href="/">SIGN UP</a></button></li>
+                <li><button><a href="/register">SIGN UP</a></button></li>
               </ul>
             </div>
           </div>
@@ -81,6 +81,8 @@ export default {
 
 .user a {
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .user li {
@@ -93,12 +95,6 @@ export default {
   border-radius: 70px;
   padding: 10px;
   font-size: medium;
-}
-
-.user button:hover {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
 }
 
 span {
@@ -156,13 +152,14 @@ p {
   text-decoration: none;
 }
 
-.learn:hover {
+.learn button:hover {
   background: transparent;
   color: white;
   border: 2px solid white;
 }
 
-.learn button a {
+.learn a {
   text-decoration: none;
+  color: black;
 }
 </style>

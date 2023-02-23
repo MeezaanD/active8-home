@@ -6,10 +6,11 @@
                   <div class="col-sm-3">
                     <h3>Quick links</h3>
                     <ul>
-                        <li><a href="/">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="/">Shop</a></li>
-                        <li><a href="/">Admin</a></li>
+                        <li><a href="/shop">Shop</a></li>
+                        <li><a href="/admin">Admin</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                   </div>
                   <div class="col-sm-3">
@@ -48,6 +49,8 @@ export default {
 
     ul a {
          text-decoration: none;
+         color: rgb(224, 215, 161);
+         ;
     }
 
     h3 {
@@ -57,7 +60,7 @@ export default {
       }
 
     h6 {
-        margin-top: 60px;
+        margin-top: 80px;
         font-family: 'Poppins', sans-serif;
         color: rgb(224, 215, 161);
         font-weight: bold;

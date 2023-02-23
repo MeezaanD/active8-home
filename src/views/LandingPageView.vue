@@ -92,7 +92,7 @@
               <img src="https://i.postimg.cc/qqFWhKs8/men.jpg" class="img-fluid" style="height: 50vh; width:100%;" alt="...">
               <div class="card-body">
                 <h6 class="latest">Latest Men Clothing</h6>
-                <center><button class="shop-now"><a href="">Shop Now</a></button></center>
+                <center><button class="shop-now"><a href="/shop">Shop Now</a></button></center>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@
               <img src="https://i.postimg.cc/y6RGvDyr/women.jpg" class="img-fluid" style="height: 50vh; width:100%;" alt="...">
               <div class="card-body">
                 <h6 class="latest">Latest Women Clothing</h6>
-                <center><button class="shop-now"><a href="">Shop Now</a></button></center>
+                <center><button class="shop-now"><a href="/shop">Shop Now</a></button></center>
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@
               <img src="https://i.postimg.cc/50s2rPJb/bag.jpg" class="img-fluid" style="height: 50vh; width:100%;" alt="...">
               <div class="card-body">
                 <h6 class="latest">Latest Accessories</h6>
-                <center><button class="shop-now"><a href="">Shop Now</a></button></center>
+                <center><button class="shop-now"><a href="/shop">Shop Now</a></button></center>
               </div>
             </div>
           </div>
